@@ -1,0 +1,82 @@
+/* 
+  Localizable.strings (English)
+  ImageCompress
+*/
+
+// App Name
+"app.name" = "ImageCompress";
+
+// Main View
+"main.title" = "ImageCompress";
+"main.photos.count" = "%d photos";
+"main.saved" = "Saved %@";
+
+// Drop Zone
+"dropzone.title" = "Drag images here";
+"dropzone.subtitle" = "or click to select files from your Mac";
+"dropzone.formats" = "Supports PNG / JPG / GIF / WebP / HEIC";
+
+// Toolbar
+"toolbar.settings" = "Settings";
+
+// Bottom Bar
+"bottombar.quality" = "Quality:";
+"bottombar.clear" = "Clear List";
+"bottombar.export" = "Export All";
+"bottombar.compress" = "Start Compression";
+"bottombar.copyright" = "© Chengdu GUBT Industry Co., Ltd.";
+"bottombar.company.name" = "Chengdu GUBT Industry Co., Ltd.";
+
+// Image Item
+"item.remove" = "Remove";
+"item.preview" = "Preview Comparison";
+"item.pending" = "Pending";
+"item.compressing" = "Compressing...";
+"item.completed" = "Completed";
+"item.failed" = "Failed";
+"item.no.compression" = "No compression needed (already optimal)";
+
+// Comparison View
+"comparison.title" = "Image Comparison";
+"comparison.close" = "Close";
+"comparison.original" = "Original";
+"comparison.compressed" = "Compressed";
+"comparison.ratio" = "Compression Ratio: %@";
+"comparison.saved" = "Saved: %@";
+"comparison.show.original" = "Show Original";
+
+// Settings View
+"settings.title" = "Settings";
+"settings.compression" = "Compression Settings";
+"settings.quality" = "Compression Quality";
+"settings.quality.hint" = "Higher quality = larger file size, better image quality";
+"settings.output" = "Output Options";
+"settings.preserve.metadata" = "Preserve Image Metadata";
+"settings.overwrite.original" = "Overwrite Original Files";
+"settings.output.format" = "Output Format";
+"settings.about" = "About";
+"settings.description" = "Free and Open Source Image Compression Tool";
+"settings.version" = "Version %@";
+"settings.company.name" = "Chengdu GUBT Industry Co., Ltd.";
+
+// Output Format
+"format.original" = "Keep Original Format";
+"format.png" = "PNG";
+"format.jpeg" = "JPEG";
+"format.webp" = "WebP";
+
+// Alerts
+"alert.export.success.title" = "Export Successful";
+"alert.export.success.message" = "Exported %d images";
+"alert.export.failed.title" = "Export Failed";
+"alert.compression.failed" = "Compression failed";
+"alert.save.failed" = "Save failed: %@";
+
+// Errors
+"error.unsupported.format" = "Unsupported image format";
+"error.compression.failed" = "Compression failed";
+"error.file.not.found" = "File not found";
+"error.invalid.image" = "Invalid image file";
+
+// File Picker
+"filepicker.select.directory" = "Select Export Directory";

@@ -1,0 +1,82 @@
+/* 
+  Localizable.strings (Simplified Chinese)
+  ImageCompress
+*/
+
+// App Name
+"app.name" = "图片压缩";
+
+// Main View
+"main.title" = "ImageCompress";
+"main.photos.count" = "%d 张图片";
+"main.saved" = "节省 %@";
+
+// Drop Zone
+"dropzone.title" = "拖拽图片到这里";
+"dropzone.subtitle" = "或点击选择文件";
+"dropzone.formats" = "支持 PNG / JPG / GIF / WebP / HEIC";
+
+// Toolbar
+"toolbar.settings" = "设置";
+
+// Bottom Bar
+"bottombar.quality" = "质量:";
+"bottombar.clear" = "清空列表";
+"bottombar.export" = "导出全部";
+"bottombar.compress" = "开始压缩";
+"bottombar.copyright" = "© 成都固佰特科技有限公司";
+"bottombar.company.name" = "成都固佰特科技有限公司";
+
+// Image Item
+"item.remove" = "移除";
+"item.preview" = "预览对比";
+"item.pending" = "等待中";
+"item.compressing" = "压缩中...";
+"item.completed" = "已完成";
+"item.failed" = "失败";
+"item.no.compression" = "无需压缩(已是最优)";
+
+// Comparison View
+"comparison.title" = "图片对比";
+"comparison.close" = "关闭";
+"comparison.original" = "原图";
+"comparison.compressed" = "压缩后";
+"comparison.ratio" = "压缩率: %@";
+"comparison.saved" = "节省: %@";
+"comparison.show.original" = "显示原图";
+
+// Settings View
+"settings.title" = "设置";
+"settings.compression" = "压缩设置";
+"settings.quality" = "压缩质量";
+"settings.quality.hint" = "质量越高,文件越大,画质越好";
+"settings.output" = "输出选项";
+"settings.preserve.metadata" = "保留图片元数据";
+"settings.overwrite.original" = "覆盖原文件";
+"settings.output.format" = "输出格式";
+"settings.about" = "关于";
+"settings.description" = "免费开源的图片压缩工具";
+"settings.version" = "版本 %@";
+"settings.company.name" = "成都固佰特科技有限公司";
+
+// Output Format
+"format.original" = "保持原格式";
+"format.png" = "PNG";
+"format.jpeg" = "JPEG";
+"format.webp" = "WebP";
+
+// Alerts
+"alert.export.success.title" = "导出成功";
+"alert.export.success.message" = "已导出 %d 张图片";
+"alert.export.failed.title" = "导出失败";
+"alert.compression.failed" = "压缩失败";
+"alert.save.failed" = "保存失败: %@";
+
+// Errors
+"error.unsupported.format" = "不支持的图片格式";
+"error.compression.failed" = "压缩失败";
+"error.file.not.found" = "文件不存在";
+"error.invalid.image" = "无效的图片文件";
+
+// File Picker
+"filepicker.select.directory" = "选择导出目录";

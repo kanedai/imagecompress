@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B0401E72A2ADD5241ED229 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11960B9E2D9988EB61DD969D /* Localizable.strings */; };
+		046E43302DCA644BE9932E6C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565F512D7A5E007CD718442 /* SettingsView.swift */; };
+		0FEE2100E543FBF585910CA4 /* AdvancedPNGCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC319043EC8EA84B488C7A10 /* AdvancedPNGCompressor.swift */; };
+		3BA4961FEF5A837F9E001F66 /* JPEGCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F126E6393A4DE25F6C53CD /* JPEGCompressor.swift */; };
+		3CB4A87EFD97B18969C11335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A78D31A21510A32E7DF80 /* ContentView.swift */; };
+		40C6050237FB4436A4F7CF6E /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B813026EB38415FF3BBBF352 /* Localization.swift */; };
+		43C2022F669E7A8CC052D9F0 /* ComparisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBA0D99A2954A4F5D65CF5 /* ComparisonView.swift */; };
+		6A8C14D1815127468FFD4C97 /* BinaryToolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9876796B34D5CB4BDEED36BE /* BinaryToolManager.swift */; };
+		854515C4BBC25232520088E0 /* ImageCompress.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = A318D0A66DA91D0324928D67 /* ImageCompress.xcodeproj */; };
+		8B25833EB180940073DBF2D6 /* CompressionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625891EBAD2672CA170668A5 /* CompressionEngine.swift */; };
+		9CD72D2265851F9BD46F08B5 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114690EAD3901D4E472A6A4A /* ImageItem.swift */; };
+		B29E6B6F47240FB136E9B610 /* MozJPEGCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568DF5FBF48A06E905C4F24 /* MozJPEGCompressor.swift */; };
+		BC37756E169B6E49BFF06B2A /* ImageCompressApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396A605ADED662242398BB0F /* ImageCompressApp.swift */; };
+		C340D3FB797520006BCDB96E /* DropZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB361D11A44657CF621DD07 /* DropZoneView.swift */; };
+		C9AC3BDD192ACB38F0CD475F /* ByteFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2179CF7B9DDBD11C0955A204 /* ByteFormatter.swift */; };
+		D0876CC24677F144F822EA00 /* CompressionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123517F7045BE082C7BA7EE /* CompressionManager.swift */; };
+		D0D849BF562F9769E041495F /* ImageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC1CEAB63897E2CED249A4C /* ImageItemView.swift */; };
+		DEFF7ECE5156C7EB75F97C8F /* CompressionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3838190160F2CEAE0B3CFB79 /* CompressionSettings.swift */; };
+		E78A8455FFB5AFCFEAA53B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1F258F025C9126A11A16C9 /* Assets.xcassets */; };
+		EF8131D7F5DEC57B85C7946F /* GIFCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4253F228D520D31CAA8C1E /* GIFCompressor.swift */; };
+		F051CC387EA75075CEF728A5 /* PNGCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F28499654646913F1D07A0E /* PNGCompressor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		114690EAD3901D4E472A6A4A /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+		2179CF7B9DDBD11C0955A204 /* ByteFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteFormatter.swift; sourceTree = "<group>"; };
+		2B87A3617B4E2213E7709A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3123517F7045BE082C7BA7EE /* CompressionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionManager.swift; sourceTree = "<group>"; };
+		3838190160F2CEAE0B3CFB79 /* CompressionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionSettings.swift; sourceTree = "<group>"; };
+		396A605ADED662242398BB0F /* ImageCompressApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompressApp.swift; sourceTree = "<group>"; };
+		5F28499654646913F1D07A0E /* PNGCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNGCompressor.swift; sourceTree = "<group>"; };
+		625891EBAD2672CA170668A5 /* CompressionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionEngine.swift; sourceTree = "<group>"; };
+		6D4253F228D520D31CAA8C1E /* GIFCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFCompressor.swift; sourceTree = "<group>"; };
+		7EB361D11A44657CF621DD07 /* DropZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropZoneView.swift; sourceTree = "<group>"; };
+		8FFBA0D99A2954A4F5D65CF5 /* ComparisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonView.swift; sourceTree = "<group>"; };
+		9876796B34D5CB4BDEED36BE /* BinaryToolManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryToolManager.swift; sourceTree = "<group>"; };
+		A318D0A66DA91D0324928D67 /* ImageCompress.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ImageCompress.xcodeproj; sourceTree = "<group>"; };
+		A565F512D7A5E007CD718442 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A568DF5FBF48A06E905C4F24 /* MozJPEGCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MozJPEGCompressor.swift; sourceTree = "<group>"; };
+		A5F126E6393A4DE25F6C53CD /* JPEGCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPEGCompressor.swift; sourceTree = "<group>"; };
+		AEC1CEAB63897E2CED249A4C /* ImageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemView.swift; sourceTree = "<group>"; };
+		B813026EB38415FF3BBBF352 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		BAD1CFD226CF1114CA45A392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC319043EC8EA84B488C7A10 /* AdvancedPNGCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedPNGCompressor.swift; sourceTree = "<group>"; };
+		C84A78D31A21510A32E7DF80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAF0FCC8A3F48233E2AA7F2D /* ImageCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1F258F025C9126A11A16C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC8C44FE4BFDB83F9BCCB1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		20F1689E57EB93DDBC1953B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8FFBA0D99A2954A4F5D65CF5 /* ComparisonView.swift */,
+				C84A78D31A21510A32E7DF80 /* ContentView.swift */,
+				7EB361D11A44657CF621DD07 /* DropZoneView.swift */,
+				AEC1CEAB63897E2CED249A4C /* ImageItemView.swift */,
+				A565F512D7A5E007CD718442 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21CCF0EC6995C4085AAFC905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF0FCC8A3F48233E2AA7F2D /* ImageCompress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		285E77A80387CD7A70FCDF45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3838190160F2CEAE0B3CFB79 /* CompressionSettings.swift */,
+				114690EAD3901D4E472A6A4A /* ImageItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C6EE96F2F34CB29000671F5 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469F7A4B8A4C8041549CB653 /* ImageCompress */ = {
+			isa = PBXGroup;
+			children = (
+				FB1F258F025C9126A11A16C9 /* Assets.xcassets */,
+				A318D0A66DA91D0324928D67 /* ImageCompress.xcodeproj */,
+				396A605ADED662242398BB0F /* ImageCompressApp.swift */,
+				2B87A3617B4E2213E7709A69 /* Info.plist */,
+				11960B9E2D9988EB61DD969D /* Localizable.strings */,
+			);
+			name = ImageCompress;
+			path = .;
+			sourceTree = "<group>";
+		};
+		AAD1B956361AD9E12F119175 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BC319043EC8EA84B488C7A10 /* AdvancedPNGCompressor.swift */,
+				9876796B34D5CB4BDEED36BE /* BinaryToolManager.swift */,
+				625891EBAD2672CA170668A5 /* CompressionEngine.swift */,
+				3123517F7045BE082C7BA7EE /* CompressionManager.swift */,
+				6D4253F228D520D31CAA8C1E /* GIFCompressor.swift */,
+				A5F126E6393A4DE25F6C53CD /* JPEGCompressor.swift */,
+				A568DF5FBF48A06E905C4F24 /* MozJPEGCompressor.swift */,
+				5F28499654646913F1D07A0E /* PNGCompressor.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		BC742328E516D1F39F12BF79 = {
+			isa = PBXGroup;
+			children = (
+				AAD1B956361AD9E12F119175 /* Engine */,
+				469F7A4B8A4C8041549CB653 /* ImageCompress */,
+				285E77A80387CD7A70FCDF45 /* Models */,
+				D2F02F35EBBE193C677EE2F3 /* Utils */,
+				20F1689E57EB93DDBC1953B0 /* Views */,
+				21CCF0EC6995C4085AAFC905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F02F35EBBE193C677EE2F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2179CF7B9DDBD11C0955A204 /* ByteFormatter.swift */,
+				B813026EB38415FF3BBBF352 /* Localization.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACD8B8CFC9D90A59F339867 /* ImageCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D56F091137EB1D9EADCF47E /* Build configuration list for PBXNativeTarget "ImageCompress" */;
+			buildPhases = (
+				698B332F1EC83137CE38B977 /* Sources */,
+				4E547AF61EC410B502C2E9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCompress;
+			packageProductDependencies = (
+			);
+			productName = ImageCompress;
+			productReference = CAF0FCC8A3F48233E2AA7F2D /* ImageCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3C6D8A8EFA5953E9CBC36BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = DA99D36A659B84FC4AA6F0FF /* Build configuration list for PBXProject "ImageCompress" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = BC742328E516D1F39F12BF79;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3C6EE96F2F34CB29000671F5 /* Products */;
+					ProjectRef = A318D0A66DA91D0324928D67 /* ImageCompress.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AACD8B8CFC9D90A59F339867 /* ImageCompress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E547AF61EC410B502C2E9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78A8455FFB5AFCFEAA53B5A /* Assets.xcassets in Resources */,
+				854515C4BBC25232520088E0 /* ImageCompress.xcodeproj in Resources */,
+				00B0401E72A2ADD5241ED229 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		698B332F1EC83137CE38B977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEE2100E543FBF585910CA4 /* AdvancedPNGCompressor.swift in Sources */,
+				6A8C14D1815127468FFD4C97 /* BinaryToolManager.swift in Sources */,
+				C9AC3BDD192ACB38F0CD475F /* ByteFormatter.swift in Sources */,
+				43C2022F669E7A8CC052D9F0 /* ComparisonView.swift in Sources */,
+				8B25833EB180940073DBF2D6 /* CompressionEngine.swift in Sources */,
+				D0876CC24677F144F822EA00 /* CompressionManager.swift in Sources */,
+				DEFF7ECE5156C7EB75F97C8F /* CompressionSettings.swift in Sources */,
+				3CB4A87EFD97B18969C11335 /* ContentView.swift in Sources */,
+				C340D3FB797520006BCDB96E /* DropZoneView.swift in Sources */,
+				EF8131D7F5DEC57B85C7946F /* GIFCompressor.swift in Sources */,
+				BC37756E169B6E49BFF06B2A /* ImageCompressApp.swift in Sources */,
+				9CD72D2265851F9BD46F08B5 /* ImageItem.swift in Sources */,
+				D0D849BF562F9769E041495F /* ImageItemView.swift in Sources */,
+				3BA4961FEF5A837F9E001F66 /* JPEGCompressor.swift in Sources */,
+				40C6050237FB4436A4F7CF6E /* Localization.swift in Sources */,
+				B29E6B6F47240FB136E9B610 /* MozJPEGCompressor.swift in Sources */,
+				F051CC387EA75075CEF728A5 /* PNGCompressor.swift in Sources */,
+				046E43302DCA644BE9932E6C /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11960B9E2D9988EB61DD969D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAD1CFD226CF1114CA45A392 /* en */,
+				FCC8C44FE4BFDB83F9BCCB1D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A08B663B1A64560342723E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B629DD2CCB8F97153146A5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagecompress.app;
+				PRODUCT_NAME = ImageCompress;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D21D1B250BE086411269F105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2447C92916CBE565C782E77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.imagecompress.app;
+				PRODUCT_NAME = ImageCompress;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D56F091137EB1D9EADCF47E /* Build configuration list for PBXNativeTarget "ImageCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2447C92916CBE565C782E77 /* Debug */,
+				B629DD2CCB8F97153146A5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA99D36A659B84FC4AA6F0FF /* Build configuration list for PBXProject "ImageCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A08B663B1A64560342723E5 /* Debug */,
+				D21D1B250BE086411269F105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3C6D8A8EFA5953E9CBC36BB /* Project object */;
+}
